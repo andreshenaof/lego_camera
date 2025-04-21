@@ -90,6 +90,8 @@ RestartSec=1
 WantedBy=default.target
 Alias=capture.service
 
+```
+
 ## Folder Structure
 - Camera_lcd.py # Main script
 - lib/ # Custom LCD driver

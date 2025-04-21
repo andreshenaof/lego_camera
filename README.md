@@ -62,6 +62,34 @@ Make sure to also connect the SPI pins (MOSI, SCLK, CS) according to your displa
     python3 camera_lcd.py
     ```
 
+## Running as a Service (Optional)
+
+You can run the camera system automatically on boot using `systemd`. Here's an example unit file:
+
+### 1. Create a service file
+
+Create a file at `/etc/systemd/system/capture.service` with the following content:
+
+```ini
+[Unit]
+Description=Capture service
+After=graphical.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/andres/Desktop/camera_lego
+ExecStart=/usr/bin/python3 /home/andres/Desktop/camera_lego/lcd_v4.py
+StandardOutput=append:/home/andres/info.log
+StandardError=append:/home/andres/error.log
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/andres/.Xauthority
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target
+Alias=capture.service
+
 ## Folder Structure
 - Camera_lcd.py # Main script
 - lib/ # Custom LCD driver

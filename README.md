@@ -63,7 +63,7 @@ Make sure to also connect the SPI pins (MOSI, SCLK, CS) according to your displa
     ```
 
 ## Folder Structure
-. ├── camera_lcd.py # Main script ├── lib/ # Custom LCD driver ├── Font/Font00.ttf # Display font └── DCMI/ # Saved images (auto-created)
+├── camera_lcd.py # Main script ├── lib/ # Custom LCD driver ├── Font/Font00.ttf # Display font └── DCMI/ # Saved images (auto-created)
 
 
 ## Notes

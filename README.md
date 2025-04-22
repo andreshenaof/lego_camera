@@ -12,7 +12,7 @@ This project implements a button-activated camera system using a Raspberry Pi, t
 
 ## Hardware Required
 
-- Raspberry Pi (any model with camera support)
+- Raspberry Pi (any model with camera support) in this case Zero W
 - Raspberry Pi Camera Module (compatible with Picamera2)
 - 1.8-inch SPI LCD display (e.g., ST7735-based)
 - Tactile push button (connected to GPIO 26)

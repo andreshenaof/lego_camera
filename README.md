@@ -1,4 +1,4 @@
-# Raspberry Pi LCD Camera System
+# Raspberry Pi LCD Camera System V1.
 
 This project implements a button-activated camera system using a Raspberry Pi, the Picamera2 library, and a 1.8-inch SPI LCD display. It captures high-resolution still images, previews them on the screen, and saves them with timestamped filenames. Ideal for DIY photography projects, Raspberry Pi learning, or creative automation setups.
 

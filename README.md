@@ -104,7 +104,10 @@ Alias=capture.service
 - Make sure the folder `/home/andres/Desktop/camera_lego/DCMI/` exists or modify the path in the script.
 - Adjust image resolution or LCD settings based on your hardware.
 
-## Demo
+## Lego Camera
+![Lego_camera](lego_camera_2.jpeg)
+![Lego camera back](lego_camera_1.jpeg)
+
 
 
 

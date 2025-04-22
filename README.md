@@ -113,4 +113,5 @@ Alias=capture.service
 
 ## License
 
+The software of the camera is licensed under the GPLv3.
 
